@@ -1,0 +1,15 @@
+<application>
+  <component name="EditorSettings">
+    <option name="STRIP_TRAILING_SPACES" value="None" />
+    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
+    <pattern icon="important" case-sensitive="true" pattern="(\W|^)(?&lt;TAG&gt;gogo)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
+    <pattern pattern="\bNotImplementedException\b" />
+    <filter name="gogo">
+      <pattern index="1" />
+    </filter>
+  </component>
+</application>
