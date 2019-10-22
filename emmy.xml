@@ -1,0 +1,9 @@
+<application>
+  <component name="LuaSettings">
+    <option name="additionalSourcesRoot">
+      <array>
+        <option value="D:/AARoot/WorkGit/xLuaProject/xLuaProject/Assets/StreamingAssets" />
+      </array>
+    </option>
+  </component>
+</application>
